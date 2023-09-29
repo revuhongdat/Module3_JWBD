@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+    position:relative;
+    width:30px;
+    height:30px;
+    padding:0 20px;
+    background-color: pink;
+    line-height: 30px;
+    cursor:pointer;
+}
+.menu ul ul{
+    position: absolute;
+    top:0;
+    left:70px;
+    visibility: hidden;
+    background-color: red;
+}
+.menu ul li:hover ul{
+    visibility:visible;
+}
+.menu ul li:hover {
+    background-color: greenyellow;
+}

@@ -1,0 +1,10 @@
+.body {
+    border-top: greenyellow solid 5px;
+    border-right: #2ffff8 solid 5px;
+    border-bottom: blue solid 5px;
+    border-left: #ff2f55 solid 5px;
+}
+.body p {
+    border: black dotted 3px;
+    margin: 10px;
+}

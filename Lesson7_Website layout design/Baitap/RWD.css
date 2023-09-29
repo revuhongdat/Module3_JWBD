@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    height: 30px;
+    background-color: rosybrown;
+    line-height: 30px;
+}
+.header .nav {
+    display: flex;
+    width: 250px;
+}
+.header .nav-item {
+    font-family: Arial, serif;
+    font-size: 12px;
+    text-align: center;
+    width: 50px;
+}
+.header .nav-item:hover {
+    color: #2ffff8;
+}
+.header .login {
+    width: 50px;
+    text-align: right;
+    margin-right: 40px;
+    line-height: 30px;
+    font-family: Arial, serif;
+    font-size: 12px;
+}
+.main {
+    height: 400px;
+    background-color: burlywood;
+    display: flex;
+}
+.main .left {
+    width: 20%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.main .left a {
+    font-family: Arial, serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+.main .mid {
+    width: 60%;
+}
+.welcome, .test {
+    height: 200px;
+}
+.main .right {
+    justify-items: center;
+    width: 20%;
+    background-color: antiquewhite;
+    font-family: Arial, serif;
+    font-size: 12px;
+}
+.ads {
+    height: 50px;
+    border: #ff2f55 solid 1px;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/*@media only screen and (max-width: 1000px) {*/
+/*    .main {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+@media only screen and (max-width: 600px) {
+    .main .left {
+        display: none;
+    }
+    .main .right {
+        display: none;
+    }
+    .main .mid {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .main .left {
+        background-color: lightblue;
+    }
+}
